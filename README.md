@@ -1,2 +1,4 @@
 # synchronous_FIFO
-This project is a small synchronous fifo written considering all the necessary rules at Vicharak
+This project is a small synchronous fifo written considering all the necessary rules at Vicharak.
+
+The repo contains the FIFO module and testbench, along with icarus verilog simulation files.
