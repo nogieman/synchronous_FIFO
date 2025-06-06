@@ -1,0 +1,202 @@
+           
+           Efinix FPGA Placement and Routing.
+           Version: 2025.1.110 
+           Compiled: May  7 2025.
+           
+           Copyright (C) 2013 - 2025 Efinix, Inc. All rights reserved.
+
+           
+           The Tool Is Based on VPR of University of Toronto,
+           a free open source code under MIT license.
+           
+           
+INFO     : Running Placement and Routing for Family "Trion", Device "T120F324" ...
+           
+           ***** Beginning stage netlist pre-processing ... *****
+INFO     : Successfully Read in Verific binary Netlist dump file "/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/outflow/sync_fifo.vdb".
+INFO     : ***** Beginning VDB Netlist Checker ... *****
+INFO     : VDB Netlist Checker took 0.00281192 seconds.
+INFO     : 	VDB Netlist Checker took 0.01 seconds (approximately) in total CPU time.
+INFO     : VDB Netlist Checker virtual memory usage: begin = 213.172 MB, end = 237.784 MB, delta = 24.612 MB
+INFO     : VDB Netlist Checker resident set memory usage: begin = 123.436 MB, end = 123.856 MB, delta = 0.42 MB
+INFO     : 	VDB Netlist Checker peak resident set memory usage = 324.58 MB
+INFO     : ***** Ending VDB Netlist Checker ... *****
+INFO     : Reading core interface constraints file "/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/outflow/sync_fifo.interface.csv"
+INFO     : Successfully read core interface constraints file "/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/outflow/sync_fifo.interface.csv"
+INFO     : Found 0 constant generator nets.
+INFO     : Pass 0: Swept away 0 nets with no fanout.
+INFO     : Pass 0: Swept away 0 blocks with no fanout.
+INFO     : Swept away 0 nets and 0 blocks in total.
+INFO     : Removed 0 LUT buffers
+INFO     : Successfully created VPR logical netlist from Verific binary DataBase file "/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/outflow/sync_fifo.vdb".
+INFO     : Netlist pre-processing took 0.0646125 seconds.
+INFO     : 	Netlist pre-processing took 0.01 seconds (approximately) in total CPU time.
+INFO     : Netlist pre-processing virtual memory usage: begin = 213.172 MB, end = 237.784 MB, delta = 24.612 MB
+INFO     : Netlist pre-processing resident set memory usage: begin = 122.632 MB, end = 124.136 MB, delta = 1.504 MB
+INFO     : 	Netlist pre-processing peak resident set memory usage = 324.58 MB
+           ***** Ending stage netlist pre-processing *****
+           
+           ***** Beginning stage pre-packing ... *****
+           ***** Ending stage pre-packing *****
+           
+           ***** Beginning stage packing ... *****
+INFO     : Generate proto netlist for file "/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/work_pnr/sync_fifo.net_proto" took 0.000691 seconds
+INFO     : Creating IO constraints file '/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/work_pnr/sync_fifo.io_place'
+INFO     : Packing took 0.0171184 seconds.
+INFO     : 	Packing took 0 seconds (approximately) in total CPU time.
+INFO     : Packing virtual memory usage: begin = 237.784 MB, end = 237.784 MB, delta = 0 MB
+INFO     : Packing resident set memory usage: begin = 124.928 MB, end = 125.448 MB, delta = 0.52 MB
+INFO     : 	Packing peak resident set memory usage = 324.58 MB
+           ***** Ending stage packing *****
+           
+INFO     : Read proto netlist file /media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/work_pnr/sync_fifo.net_proto
+INFO     : Read proto netlist for file "/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/work_pnr/sync_fifo.net_proto" took 0.000377 seconds
+INFO     : Setup net and block data structure took 0.006069 seconds
+INFO     : Reading core interface constraints file "/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/outflow/sync_fifo.interface.csv"
+INFO     : Successfully read core interface constraints file "/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/outflow/sync_fifo.interface.csv"
+           ***** Beginning stage packed netlist loading ... *****
+INFO     : Read proto netlist file /media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/work_pnr/sync_fifo.net_proto
+INFO     : Read proto netlist for file "/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/work_pnr/sync_fifo.net_proto" took 0.000452 seconds
+INFO     : Setup net and block data structure took 0.00601 seconds
+INFO     : Packed netlist loading took 0.00707957 seconds.
+INFO     : 	Packed netlist loading took 0.01 seconds (approximately) in total CPU time.
+INFO     : Packed netlist loading virtual memory usage: begin = 237.784 MB, end = 237.784 MB, delta = 0 MB
+INFO     : Packed netlist loading resident set memory usage: begin = 143.796 MB, end = 143.796 MB, delta = 0 MB
+INFO     : 	Packed netlist loading peak resident set memory usage = 324.58 MB
+           ***** Ending stage packed netlist loading *****
+           
+           ***** Beginning stage pre-placement ... *****
+           
+           ***** Ending stage pre-placement *****
+           
+INFO     : No SDC file found.  Using default timing constraint of 1 ns.
+INFO     : NOTE:  Use --sdc_file <SDC_FILE> to override this behavior.
+INFO     : Creating clock 'i_clk' with 1 sources
+           ***** Beginning stage initial placement ... *****
+INFO     : Reading core interface constraints file "/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/outflow/sync_fifo.interface.csv"
+INFO     : Successfully read core interface constraints file "/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/outflow/sync_fifo.interface.csv"
+INFO     : Writing IO placement constraints to "/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/outflow/sync_fifo.interface.io"
+INFO     : Reading placement constraints from '/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/outflow/sync_fifo.interface.io'.
+INFO     : Reading placement constraints from '/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/work_pnr/sync_fifo.io_place'.
+WARNING  : i_clk has no assigned placement; it will be placed randomly.
+WARNING  : i_rst_n has no assigned placement; it will be placed randomly.
+WARNING  : i_push_valid has no assigned placement; it will be placed randomly.
+WARNING  : i_push_data[7] has no assigned placement; it will be placed randomly.
+WARNING  : i_push_data[6] has no assigned placement; it will be placed randomly.
+WARNING  : i_push_data[5] has no assigned placement; it will be placed randomly.
+WARNING  : i_push_data[4] has no assigned placement; it will be placed randomly.
+WARNING  : i_push_data[3] has no assigned placement; it will be placed randomly.
+WARNING  : i_push_data[2] has no assigned placement; it will be placed randomly.
+WARNING  : i_push_data[1] has no assigned placement; it will be placed randomly.
+WARNING  : i_push_data[0] has no assigned placement; it will be placed randomly.
+WARNING  : i_pop_ready has no assigned placement; it will be placed randomly.
+WARNING  : o_full has no assigned placement; it will be placed randomly.
+WARNING  : o_empty has no assigned placement; it will be placed randomly.
+WARNING  : o_pop_data[7] has no assigned placement; it will be placed randomly.
+WARNING  : o_pop_data[6] has no assigned placement; it will be placed randomly.
+WARNING  : o_pop_data[5] has no assigned placement; it will be placed randomly.
+WARNING  : o_pop_data[4] has no assigned placement; it will be placed randomly.
+WARNING  : o_pop_data[3] has no assigned placement; it will be placed randomly.
+WARNING  : o_pop_data[2] has no assigned placement; it will be placed randomly.
+WARNING  : o_pop_data[1] has no assigned placement; it will be placed randomly.
+WARNING  : o_pop_data[0] has no assigned placement; it will be placed randomly.
+WARNING  : o_push_ready has no assigned placement; it will be placed randomly.
+WARNING  : o_pop_valid has no assigned placement; it will be placed randomly.
+INFO     : 24 IOs will have random placement.
+           ***** Ending stage initial placement *****
+           
+           ***** Beginning stage placement ... *****
+INFO     : Starting Global Placer with 6 threads ...
+            ----------     -------  --------------     -------
+             Iteration       WHPWL Worst Slack (ps) Convergence
+            ----------     -------  --------------     -------
+INFO     :           1       39749           -2462        50.1%
+INFO     :           2       39233           -2462        50.1%
+INFO     :           3       37424           -2164        50.6%
+INFO     :           4       41666           -2164        50.6%
+INFO     :           5       25068           -2462        50.6%
+INFO     :           6       26502           -2164        50.6%
+INFO     :           7       22876           -2462        50.6%
+INFO     :           8       25373           -2462        52.2%
+INFO     :           9       17447           -3978        63.3%
+INFO     :          10       15980           -4692        81.2%
+INFO     :          11       15271           -5712        87.3%
+INFO     :          12       14935           -5309        91.1%
+INFO     :          13       14924           -5360        92.4%
+INFO     :          14       14888           -4902        93.9%
+INFO     :          15       14851           -4832        94.8%
+INFO     :          16       14789           -5398        95.6%
+INFO     :          17       14605           -5015        96.2%
+INFO     :          18       14645           -4562        96.2%
+INFO     :          19       14677           -5528        96.6%
+INFO     :          20       14660           -5394        96.7%
+INFO     :          21       14579           -5403        97.4%
+INFO     :          22       14645           -5407        98.1%
+INFO     :          23       14657           -5884        98.8%
+INFO     : Starting Annealer
+            ----------     -------  --------------     -------
+             Iteration       WHPWL  Delay Max (ps)     R Limit
+            ----------     -------  --------------     -------
+INFO     :           0        2546            6316        30.0
+INFO     :           1        2396            5836        29.9
+INFO     :           2        2283            5987        28.7
+INFO     :           3        2378            5736        27.5
+INFO     :           4        2311            5507        25.8
+INFO     :           5        2124            5256        24.3
+INFO     :           6        2112            5193        23.0
+INFO     :           7        1915            5067        21.5
+INFO     :           8        1880            5067        20.2
+INFO     :           9        1824            5304        18.9
+INFO     :          10        1735            5304        17.5
+INFO     :          11        1718            5304        16.3
+INFO     :          12        1683            4950        15.2
+INFO     :          13        1698            4950        14.2
+INFO     :          14        1714            4950        13.3
+INFO     :          15        1644            4950        12.5
+INFO     :          16        1648            5055        11.6
+INFO     :          17        1628            5037        10.7
+INFO     :          18        1623            5068        10.0
+INFO     :          19        1549            4942         9.3
+INFO     :          20        1531            4855         8.8
+INFO     :          21        1475            4942         8.1
+INFO     :          22        1498            4942         7.6
+INFO     :          23        1454            4855         7.0
+INFO     :          24        1429            4855         6.6
+INFO     :          25        1411            4855         6.1
+INFO     :          26        1392            4855         5.6
+INFO     :          27        1380            4855         5.2
+INFO     :          28        1385            4855         4.9
+INFO     :          29        1365            4855         4.5
+INFO     :          30        1363            4855         4.2
+INFO     :          31        1367            4905         3.8
+INFO     :          32        1331            4942         3.5
+INFO     :          33        1323            5041         3.2
+INFO     :          34        1309            5041         3.0
+INFO     :          35        1301            4942         2.8
+INFO     :          36        1273            4855         2.6
+INFO     :          37        1274            4855         2.3
+INFO     :          38        1280            4855         2.1
+INFO     :          39        1264            4855         2.0
+INFO     :          40        1263            4855         1.8
+INFO     :          41        1264            4905         1.6
+INFO     :          42        1274            4905         1.5
+INFO     :          43        1275            4905         1.4
+INFO     :          44        1265            4905         1.2
+INFO     :          45        1256            4855         1.1
+INFO     : Counted delay computer calls: 41698
+Placement successful: 545 cells are placed
+INFO     : Peak congestion smeared over 1/4 of the chip is 0.0100164 at 192,226
+INFO     : Congestion-weighted HPWL per net: 20.9759
+INFO     : Post-placement cluster-level checks is successful
+INFO     : Checks is successful
+INFO     : Reading placement constraints from '/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/outflow/sync_fifo.qplace'.
+INFO     : Finished Realigning Types (137 blocks needed type change)
+INFO     : Completed placement consistency check successfully.
+INFO     : Successfully created FPGA place file '/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/outflow/sync_fifo.place'
+INFO     : Placement took 4.40839 seconds.
+INFO     : 	Placement took 11.92 seconds (approximately) in total CPU time.
+INFO     : Placement virtual memory usage: begin = 237.784 MB, end = 385.644 MB, delta = 147.86 MB
+INFO     : Placement resident set memory usage: begin = 144.072 MB, end = 278.072 MB, delta = 134 MB
+INFO     : 	Placement peak resident set memory usage = 324.58 MB
+           ***** Ending stage placement *****
+           

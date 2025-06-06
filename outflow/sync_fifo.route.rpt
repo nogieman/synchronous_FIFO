@@ -1,0 +1,12 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2025.1.110 
+Date: Fri Jun  6 15:11:33 2025
+
+Copyright (C) 2013 - 2025 Efinix, Inc. All rights reserved.
+ 
+Family: Trion 
+Device: T120F324
+Top-level Entity Name: sync_fifo
+Elapsed time for routing: 0 hours 0 minutes 3 seconds
+Elapsed time for entire flow: 0 hours 0 minutes 28 seconds

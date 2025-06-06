@@ -1,0 +1,17 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 06, 2025 15:10:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 06, 2025 15:11:12
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:79)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:81)
+[EFX-0011 VERI-WARNING] expression size 7 truncated to fit in target size 6 (VERI-1209) (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:84)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 6 (VERI-1209) (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:85)
+[EFX-0657 WARNING] Mapping into logic memory block 'ram_fifo' (256 bits) (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:50) because read port is not synchronous.

@@ -1,0 +1,58 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2025.1.110 
+Date: Fri Jun  6 15:11:28 2025
+
+Copyright (C) 2013 - 2025 Efinix, Inc. All rights reserved.
+ 
+Family: Trion 
+Device: T120F324
+Top-level Entity Name: sync_fifo
+Elapsed time for packing: 0 hours 0 minutes 0 seconds
+
+---------- Resource Summary (begin) ----------
+Inputs: 12 / 1076 (1.12%)
+Outputs: 12 / 1566 (0.77%)
+Clocks: 1 / 16 (6.25%)
+Logic Elements: 545 / 112128 (0.49%)
+	LE: LUTs/Adders: 287 / 112128 (0.26%)
+	LE: Registers: 272 / 107520 (0.25%)
+Memory Blocks: 0 / 1056 (0.00%)
+Multipliers: 0 / 320 (0.00%)
+---------- Resource Summary (end) ----------
+
+
+---------- IO Placement Summary (begin) ----------
+
++----------------------+--------------+
+| Unassigned Core Pins | Input/Output |
++----------------------+--------------+
+|        i_clk         |    Input     |
+|       i_rst_n        |    Input     |
+|     i_push_valid     |    Input     |
+|    i_push_data[7]    |    Input     |
+|    i_push_data[6]    |    Input     |
+|    i_push_data[5]    |    Input     |
+|    i_push_data[4]    |    Input     |
+|    i_push_data[3]    |    Input     |
+|    i_push_data[2]    |    Input     |
+|    i_push_data[1]    |    Input     |
+|    i_push_data[0]    |    Input     |
+|     i_pop_ready      |    Input     |
+|        o_full        |    Output    |
+|       o_empty        |    Output    |
+|    o_pop_data[7]     |    Output    |
+|    o_pop_data[6]     |    Output    |
+|    o_pop_data[5]     |    Output    |
+|    o_pop_data[4]     |    Output    |
+|    o_pop_data[3]     |    Output    |
+|    o_pop_data[2]     |    Output    |
+|    o_pop_data[1]     |    Output    |
+|    o_pop_data[0]     |    Output    |
+|     o_push_ready     |    Output    |
+|     o_pop_valid      |    Output    |
++----------------------+--------------+
+
+----------- IO Placement Summary (end) ----------
+
+Elapsed time for placement: 0 hours 0 minutes 4 seconds

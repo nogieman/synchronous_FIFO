@@ -1,0 +1,112 @@
+Efinity Synthesis report for project sync_fifo
+Version: 2025.1.110
+Generated at: Jun 06, 2025 15:11:12
+Copyright (C) 2013 - 2025  All rights reserved.
+
+Top-level Entity Name : sync_fifo
+
+family : Trion
+device : T120F324
+project : sync_fifo
+project-xml : /media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.xml
+root : sync_fifo
+I,include : /media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo
+output-dir : /media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/outflow
+work-dir : /media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/work_syn
+write-efx-verilog : /media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/outflow/sync_fifo.map.v
+binary-db : /media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/outflow/sync_fifo.vdb
+insert-ios : 0
+max-carry-cascade : 640
+max_mult : -1
+max_ram : -1
+mode : speed
+veri_options : verilog_mode=sv_09,vhdl_mode=vhdl_2008
+
+File List:
+
+/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v
+
+### ### Report Section Start ### ###
+
+"MEM|SYN-0677" : ... Memory 'ram_fifo' is not initialized, assuming empty initial contents. (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:50)
+"MEM|SYN-0657" : Mapping into logic memory block 'ram_fifo' (256 bits) (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:50) because read port is not synchronous.
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 34
+Total number of FFs with enable signals: 266
+CE signal <r_pop>, number of controlling flip flops: 5
+CE signal <r_push>, number of controlling flip flops: 5
+CE signal <i150/n45>, number of controlling flip flops: 8
+CE signal <i150/n43>, number of controlling flip flops: 8
+CE signal <i150/n44>, number of controlling flip flops: 8
+CE signal <i150/n42>, number of controlling flip flops: 8
+CE signal <i150/n41>, number of controlling flip flops: 8
+CE signal <i150/n40>, number of controlling flip flops: 8
+CE signal <i150/n39>, number of controlling flip flops: 8
+CE signal <i150/n38>, number of controlling flip flops: 8
+CE signal <i150/n37>, number of controlling flip flops: 8
+CE signal <i150/n36>, number of controlling flip flops: 8
+CE signal <i150/n35>, number of controlling flip flops: 8
+CE signal <i150/n34>, number of controlling flip flops: 8
+CE signal <i150/n33>, number of controlling flip flops: 8
+CE signal <i150/n32>, number of controlling flip flops: 8
+CE signal <i150/n31>, number of controlling flip flops: 8
+CE signal <i150/n30>, number of controlling flip flops: 8
+CE signal <i150/n29>, number of controlling flip flops: 8
+CE signal <i150/n28>, number of controlling flip flops: 8
+CE signal <i150/n27>, number of controlling flip flops: 8
+CE signal <i150/n26>, number of controlling flip flops: 8
+CE signal <i150/n24>, number of controlling flip flops: 8
+CE signal <i150/n23>, number of controlling flip flops: 8
+CE signal <i150/n22>, number of controlling flip flops: 8
+CE signal <i150/n21>, number of controlling flip flops: 8
+CE signal <i150/n20>, number of controlling flip flops: 8
+CE signal <i150/n19>, number of controlling flip flops: 8
+CE signal <i150/n18>, number of controlling flip flops: 8
+CE signal <i150/n17>, number of controlling flip flops: 8
+CE signal <i150/n16>, number of controlling flip flops: 8
+CE signal <i150/n15>, number of controlling flip flops: 8
+CE signal <i150/n14>, number of controlling flip flops: 8
+CE signal <i150/n13>, number of controlling flip flops: 8
+### ### EFX_FF CE enables (end) ### ### ###
+
+### ### EFX_FF SR set/reset (begin) ### ### ###
+Total number of set/reset signals: 1
+Total number of FFs with set/reset signals: 16
+SR signal <i_rst_n>, number of controlling flip flops: 16
+### ### EFX_FF SR set/reset (end) ### ### ###
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                        FFs        ADDs        LUTs      RAMs DSP/MULTs
+---------------------         ---        ----        ----      ---- ---------
+sync_fifo:sync_fifo      272(272)        7(7)    278(278)      0(0)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+ Clock     Flip-Flops   Memory Ports    Multipliers
+ -----     ----------   ------------    -----------
+ i_clk            272              0              0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	12
+OUTPUT PORTS    : 	12
+
+EFX_ADD         : 	7
+EFX_LUT4        : 	278
+   1-2  Inputs  : 	12
+   3    Inputs  : 	43
+   4    Inputs  : 	223
+EFX_FF          : 	272
+EFX_GBUFCE      : 	1
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 8s
+Elapsed synthesis time : 8s

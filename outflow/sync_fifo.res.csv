@@ -1,0 +1,8 @@
+sep=\t
+Module Resource Usage Distribution Estimates
+Generated at: Jun 06, 2025 15:11:12
+
+Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module	         FFs	        ADDs	        LUTs	      RAMs	 DSP/MULTs
+sync_fifo:sync_fifo  	   272(272)	       7(7)	   278(278)	     0(0)	     0(0)	

@@ -1,0 +1,97 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 06, 2025 15:10:54
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/media/lalli/D_Drive_Deb/Soft_Stuff_Deb/efinity/2025.1/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0010 VERI-ERROR] syntax error near '@' (VERI-1137) (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:67)
+[EFX-0010 VERI-ERROR] syntax error near '<=' (VERI-1137) (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:78)
+[EFX-0010 VERI-ERROR] syntax error near '<=' (VERI-1137) (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:81)
+[EFX-0010 VERI-ERROR] syntax error near '<=' (VERI-1137) (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:84)
+[EFX-0010 VERI-ERROR] syntax error near '<=' (VERI-1137) (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:85)
+[EFX-0010 VERI-ERROR] syntax error near '<=' (VERI-1137) (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:86)
+[EFX-0010 VERI-ERROR] syntax error near 'end' (VERI-1137) (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:89)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'end' used in incorrect context (VERI-2344) (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:89)
+[EFX-0010 VERI-ERROR] 'logic' is an unknown type (VERI-1556) (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:50)
+[EFX-0010 VERI-ERROR] 'logic' is an unknown type (VERI-1556) (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:51)
+[EFX-0010 VERI-ERROR] 'logic' is an unknown type (VERI-1556) (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:52)
+[EFX-0010 VERI-ERROR] 'logic' is an unknown type (VERI-1556) (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:53)
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'r_push' is not permitted (VERI-1195) (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:63)
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'r_pop' is not permitted (VERI-1195) (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:64)
+[EFX-0010 VERI-ERROR] 'r_push' is not a constant (VERI-1188) (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:77)
+[EFX-0010 VERI-ERROR] 'r_pop' is not a constant (VERI-1188) (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:81)
+[EFX-0010 VERI-ERROR] 'r_push' is not a constant (VERI-1188) (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:83)
+[EFX-0010 VERI-ERROR] module 'sync_fifo' is ignored due to previous errors (VERI-1072) (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:92)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 06, 2025 15:11:12
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/media/lalli/D_Drive_Deb/Soft_Stuff_Deb/efinity/2025.1/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'sync_fifo' (VERI-1018) (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:28)
+[EFX-0012 VERI-INFO] extracting RAM for identifier 'ram_fifo' (VERI-2571) (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:50)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:79)
+[EFX-0011 VERI-WARNING] expression size 6 truncated to fit in target size 5 (VERI-1209) (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:81)
+[EFX-0011 VERI-WARNING] expression size 7 truncated to fit in target size 6 (VERI-1209) (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:84)
+[EFX-0011 VERI-WARNING] expression size 32 truncated to fit in target size 6 (VERI-1209) (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:85)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/media/lalli/D_Drive_Deb/Soft_Stuff_Deb/efinity/2025.1/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/media/lalli/D_Drive_Deb/Soft_Stuff_Deb/efinity/2025.1/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/media/lalli/D_Drive_Deb/Soft_Stuff_Deb/efinity/2025.1/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/media/lalli/D_Drive_Deb/Soft_Stuff_Deb/efinity/2025.1/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/media/lalli/D_Drive_Deb/Soft_Stuff_Deb/efinity/2025.1/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/media/lalli/D_Drive_Deb/Soft_Stuff_Deb/efinity/2025.1/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/media/lalli/D_Drive_Deb/Soft_Stuff_Deb/efinity/2025.1/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/media/lalli/D_Drive_Deb/Soft_Stuff_Deb/efinity/2025.1/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/media/lalli/D_Drive_Deb/Soft_Stuff_Deb/efinity/2025.1/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/media/lalli/D_Drive_Deb/Soft_Stuff_Deb/efinity/2025.1/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/media/lalli/D_Drive_Deb/Soft_Stuff_Deb/efinity/2025.1/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/media/lalli/D_Drive_Deb/Soft_Stuff_Deb/efinity/2025.1/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/media/lalli/D_Drive_Deb/Soft_Stuff_Deb/efinity/2025.1/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/media/lalli/D_Drive_Deb/Soft_Stuff_Deb/efinity/2025.1/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/media/lalli/D_Drive_Deb/Soft_Stuff_Deb/efinity/2025.1/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/media/lalli/D_Drive_Deb/Soft_Stuff_Deb/efinity/2025.1/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/media/lalli/D_Drive_Deb/Soft_Stuff_Deb/efinity/2025.1/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0677 INFO] ... Memory 'ram_fifo' is not initialized, assuming empty initial contents. (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:50)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 322460KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 322460KB)
+[EFX-0000 INFO] ... Mapping design "sync_fifo"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "sync_fifo" begin
+[EFX-0657 WARNING] Mapping into logic memory block 'ram_fifo' (256 bits) (/media/lalli/D_Drive_Deb/Efinity_stuff/sync_fifo/sync_fifo.v:50) because read port is not synchronous.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "sync_fifo" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 322460KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 322460KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 322460KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 322460KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 322460KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'i_clk' with 272 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 11 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 4s CPU user time : 3s CPU sys time : 0s MEM : 322460KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 3s CPU sys time : 0s MEM : 322460KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 276, ed: 1039, lv: 4, pw: 515.57
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s CPU user time : 4s CPU sys time : 0s MEM : 322460KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 4s CPU sys time : 0s MEM : 322460KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'i_clk~i_clk' with 272 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 3s CPU user time : 7s CPU sys time : 0s MEM : 322460KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	7
+[EFX-0000 INFO] EFX_LUT4        : 	278
+[EFX-0000 INFO] EFX_FF          : 	272
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 7s CPU sys time : 0s MEM : 322460KB)
