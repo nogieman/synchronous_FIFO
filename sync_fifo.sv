@@ -64,9 +64,6 @@ module sync_fifo #(
   assign r_pop = i_pop_ready && !o_empty;
 
   // writing to ram (sequential logic)
-  always_ff @ (posedge i_clk) begin
-  end
-
   always_ff @ (posedge i_clk or negedge i_rst_n) begin
     if (!i_rst_n) begin
       wr_ptr_q <= '0;
